@@ -10,3 +10,10 @@ body {
     background-color: #111111;
     color: #ffffff;
 }
+
+@media (min-width: 800px) {
+    body {
+        margin: 8px auto;
+        max-width: 800px;
+    }
+}
