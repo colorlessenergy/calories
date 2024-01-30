@@ -11,6 +11,11 @@ body {
     color: #ffffff;
 }
 
+.text {
+    border: 1px solid #ffffff;
+    padding: 8px;
+}
+
 @media (min-width: 800px) {
     body {
         margin: 8px auto;

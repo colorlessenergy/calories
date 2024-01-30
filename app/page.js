@@ -21,7 +21,7 @@ export default function Home() {
         <>
             <h1>{calories} calories</h1>
 
-            <div onKeyUp={handleKeyUp} contentEditable>
+            <div className="text" onKeyUp={handleKeyUp} contentEditable>
                 100 oranges
             </div>
         </>
